@@ -3,3 +3,6 @@ A 74HC595 serial-in parallel-out shift register is used to control multiple LEDs
 When a button is pressed, the corresponding LED lights up through the shift register, while a buzzer generates the associated frequency using timer-based square wave output. 
 The system is implemented in bare-metal AVR C on the ATmega328P microcontroller, without relying on Arduino libraries, providing low-level control of GPIO, timers, and SPI communication. 
 This integration of hardware and software creates an interactive platform for learning basic musical notes with both audio and visual cues.
+
+
+Link: https://wokwi.com/projects/442188532649064449
