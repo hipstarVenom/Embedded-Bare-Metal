@@ -2,6 +2,8 @@
 #include <util/delay.h>
 #include <avr/interrupt.h>
 
+// FOR BARE METAL > BUZZER IS NOT WORKING
+
 int main(void)
 {
   //led
