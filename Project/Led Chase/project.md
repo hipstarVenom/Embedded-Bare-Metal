@@ -3,6 +3,8 @@
 A simple LED animation inspired by the iconic Knight Rider car light effect.  
 This project uses multiple LEDs connected to an **Arduino Uno (ATmega328P)** to create a smooth back-and-forth scanning effect.
 
+🔗 **Wokwi Simulation Link:** https://wokwi.com/projects/449441248864323585
+
 > ⚠️ **Note:**  
 > This is a basic animation project meant for refreshing Arduino fundamentals.  
 
@@ -75,4 +77,3 @@ This creates the classic Knight Rider “scanner” look.
 - Add double-sided scanning (two lights moving toward the center)  
 - Convert project to low-level register control  
 - Create a small game using the chase effect  
-
