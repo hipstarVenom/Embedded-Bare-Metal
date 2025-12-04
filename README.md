@@ -1,66 +1,74 @@
 # 🔧 Embedded & Bare-Metal Projects  
-A collection of small embedded systems projects built using the **Arduino Uno (ATmega328P)**.  
-This repository contains both **Arduino-level implementations** and **early bare-metal attempts** using register programming.
+A collection of embedded system projects built using the **Arduino Uno (ATmega328P)**.  
+This repository includes both **Arduino implementations** and **early bare-metal experiments** using register-level programming.
 
-The goal of this repo is to explore sensors, actuators, real-world logic systems, and low-level microcontroller behavior through simple, practical projects.
+The goal of this repo is to explore sensors, actuators, simple automation systems, and low-level microcontroller behavior through hands-on projects.
 
 ---
 
 ## 📂 Projects Included
 
 ### 🚀 Rocket Launch Countdown  
-10-second countdown with LED and buzzer ignition.  
-Includes Arduino version and an incomplete bare-metal version (buzzer under debugging).
+A 10-second countdown with LED and buzzer ignition.  
+Includes a working Arduino version and a partially complete bare-metal version (buzzer debugging in progress).
 
 ### 🛎️ School Bell System (DS3231 RTC)  
-Automatic bell rings at scheduled times using RTC.  
-Simple, reliable, and easy to customize.
+Automated bell ringing at preset times using an RTC module.  
+Reliable timing and easy schedule modification.
 
 ### 🔢 Keypad Security System  
-User sets a 4-digit password.  
+User creates a 4-digit password.  
 Correct password → green LED.  
-Wrong password → warning LED blinks.
+Incorrect password → warning LED flash sequence.
 
 ### 🚦 Traffic Light Controller  
-Red → Yellow → Green cycle with fixed timing.  
-Contains both Arduino and working bare-metal versions.
+Red → Yellow → Green timing cycle.  
+Includes both Arduino and fully working bare-metal versions.
 
 ### 🌃 Smart Street Light (LDR + PIR)  
-Automatic streetlight that:  
+Adaptive street light that:  
 - Turns OFF during the day  
-- Dims at night when no motion  
-- Brightens when motion is detected  
+- Dims at night with no motion  
+- Brightens fully when motion is detected  
 
-Also includes:  
-- Basic LDR ON/OFF version  
-- Smooth PWM brightness version
+Includes simpler versions such as:  
+- Basic LDR ON/OFF light  
+- Smooth PWM brightness control
+
+### 💡 LED Chase / Knight Rider Effect  
+A sequential LED animation inspired by the Knight Rider car light.  
+- LEDs chase from left → right → left  
+- Arduino version included  
+- Bare-metal version implemented with direct register control  
+Great for refreshing timing, arrays, and GPIO control.
 
 ---
 
-## 🎯 What This Repository Shows
+## 🎯 What This Repository Demonstrates
 
 - Sensor interfacing (LDR, PIR, RTC, Keypad)  
-- LED control (digital + PWM brightness)  
-- I²C communication  
-- Basic automation logic  
-- Introduction to bare-metal concepts (DDRx, PORTx, timing)  
-- Clean step-by-step embedded projects  
+- Output control (digital LEDs, PWM brightness, buzzer)  
+- I²C communication basics  
+- Simple automation system design  
+- Introductory bare-metal concepts (DDRx, PORTx, timing)  
+- Clean, readable project structure  
 
-This is a growing collection made for learning, experimenting, and showcasing small embedded ideas.
+This collection reflects practical learning and experimentation across multiple embedded domains.
 
 ---
 
-## 🛠️ Status
+## 🛠️ Current Status
 
-✔ Arduino versions work fully  
-⚠ Bare-metal versions are in progress  
-✔ All projects tested in Wokwi Simulator  
+✔ All Arduino versions work fully  
+⚠ Bare-metal versions are actively being improved  
+✔ All projects tested and verified in Wokwi Simulator  
 
-More projects and improved bare-metal code will be added over time.
+Additional projects and refined bare-metal implementations will continue to be added.
 
 ---
 
 ## 📌 Purpose
 
-This repository acts as a **showcase of embedded system experiments**, combining hobby electronics with early firmware engineering concepts.
+This repository serves as a **showcase of embedded system experiments**, blending hobby electronics with early firmware engineering techniques.  
+It documents the learning process and progression from high-level Arduino coding to low-level microcontroller control.
 
