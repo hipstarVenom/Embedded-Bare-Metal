@@ -32,8 +32,8 @@ https://wokwi.com/projects/449529236563364865
 
 | Joystick Pin | Arduino Pin |
 |--------------|-------------|
-| VRx | A0 |
-| VRy | A1 |
+| VERT | A0 |
+| VHOR | A1 |
 | SW  | Not used |
 | 5V  | 5V |
 | GND | GND |
